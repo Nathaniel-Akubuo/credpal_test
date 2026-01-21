@@ -19,28 +19,31 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: kF1F3FE,
-      appBar: AppBar(
-        toolbarHeight: 0,
-        backgroundColor: kD0DAFF,
-        surfaceTintColor: Colors.transparent,
-      ),
-      body: Column(
-        children: [
-          const CreditHeader(shoppingLimit: 0),
-          const SearchSection(),
-          Expanded(
-            child: ScrollableColumn(
-              children: [
-                verticalSpace(14),
-                ProductsGrid(products: Product.sampleProducts),
-                verticalSpace(12),
-                FeaturedMerchantsSection(merchants: Merchant.sampleMerchants),
-              ],
+    return GestureDetector(
+      onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
+      child: Scaffold(
+        backgroundColor: kF1F3FE,
+        appBar: AppBar(
+          toolbarHeight: 0,
+          backgroundColor: kD0DAFF,
+          surfaceTintColor: Colors.transparent,
+        ),
+        body: Column(
+          children: [
+            const CreditHeader(shoppingLimit: 0),
+            const SearchSection(),
+            Expanded(
+              child: ScrollableColumn(
+                children: [
+                  verticalSpace(14),
+                  ProductsGrid(products: Product.sampleProducts),
+                  verticalSpace(12),
+                  FeaturedMerchantsSection(merchants: Merchant.sampleMerchants),
+                ],
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }
