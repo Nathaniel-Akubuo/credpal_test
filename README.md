@@ -1,16 +1,7 @@
 # credpal_test
 
-A new Flutter project.
+CredPal Take-Home Assessment
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 - 2026-01-21 at 17 39 51" src="https://github.com/user-attachments/assets/958ba73c-d214-44c3-b5c6-c2634aa434a7" />
+<img width="1206" height="2622" alt="Simulator Screenshot - iPhone 17 - 2026-01-21 at 17 39 58" src="https://github.com/user-attachments/assets/7f1526a8-8f90-4ea3-b58b-bf24b3f95ffc" />
