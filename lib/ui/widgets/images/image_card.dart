@@ -1,4 +1,4 @@
-import 'package:credpal_test/util/ui/widgets/general/custom_sizedbox.dart';
+import 'package:credpal_test/ui/widgets/general/custom_sizedbox.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 

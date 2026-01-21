@@ -1,4 +1,4 @@
-import 'package:credpal_test/util/ui/home_page.dart';
+import 'package:credpal_test/ui/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -16,6 +16,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: const MyHomePage());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: const HomePage());
   }
 }

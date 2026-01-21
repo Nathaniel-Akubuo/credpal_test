@@ -77,7 +77,9 @@ flutter:
         - asset: fonts/Avenir Regular.ttf
           weight: 400
         - asset: fonts/Avenir Heavy.ttf
-          weight: 700
+          weight: 700        
+        - asset: fonts/Avenir Black.ttf
+          weight: 900
 
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package

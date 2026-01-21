@@ -1,5 +1,5 @@
 import 'package:credpal_test/util/app_colors.dart';
-import 'package:credpal_test/util/ui/widgets/text/custom_richtext.dart';
+import 'package:credpal_test/ui/widgets/text/custom_richtext.dart';
 import 'package:flutter/widgets.dart';
 
 class CustomText extends StatelessWidget {
@@ -102,6 +102,22 @@ class CustomText extends StatelessWidget {
     this.fontSize,
     this.color,
     this.fontWeight = FontWeight.w700,
+    this.textAlign,
+    this.maxLines,
+    this.softWrap,
+    this.overflow,
+    this.onTap,
+    this.decoration,
+    this.letterSpacing,
+    this.fontStyle,
+  });
+
+  const CustomText.w900(
+    this.data, {
+    super.key,
+    this.fontSize,
+    this.color,
+    this.fontWeight = FontWeight.w900,
     this.textAlign,
     this.maxLines,
     this.softWrap,
